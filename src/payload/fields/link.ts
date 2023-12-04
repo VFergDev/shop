@@ -116,6 +116,12 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
             width: '50%',
           },
         },
+        {
+          name: 'icon',
+          type: 'upload',
+          label: 'Icon',
+          relationTo: 'media',
+        },
       ],
     })
   } else {
