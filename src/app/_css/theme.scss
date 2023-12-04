@@ -86,6 +86,8 @@
   --theme-text: var(--theme-elevation-750);
   --theme-border-color: var(--theme-elevation-150);
 
+  --color-text-500: rgb(12, 117, 117);
+
   color-scheme: light;
   color: var(--theme-text);
 
@@ -201,7 +203,7 @@
   --theme-error-950: var(--color-error-50);
 
   --theme-bg: var(--theme-elevation-100);
-  --theme-text: var(--theme-elevation-900);
+  --theme-text: var(--theme-elevation-0);
   --theme-input-bg: var(--theme-elevation-150);
   --theme-border-color: var(--theme-elevation-250);
 
