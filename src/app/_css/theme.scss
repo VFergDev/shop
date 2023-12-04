@@ -1,5 +1,5 @@
 [data-theme=light] {
-  --theme-success-50: var(--color-success-50);
+  --theme-success-50: var(--color-success-950);
   --theme-success-100: var(--color-success-100);
   --theme-success-150: var(--color-success-150);
   --theme-success-200: var(--color-success-200);
@@ -83,10 +83,10 @@
 
   --theme-bg: var(--theme-elevation-0);
   --theme-input-bg: var(--theme-elevation-50);
-  --theme-text: var(--theme-elevation-750);
+  --theme-text: var(--theme-success-100);
   --theme-border-color: var(--theme-elevation-150);
 
-  --color-text-500: rgb(12, 117, 117);
+  --color-text-light: rgb(51, 51, 51);
 
   color-scheme: light;
   color: var(--theme-text);
@@ -142,7 +142,7 @@
   --theme-elevation-950: var(--color-base-50);
   --theme-elevation-1000: var(--color-base-0);
 
-  --theme-success-50: var(--color-success-950);
+  --theme-success-50: var(--color-success-50);
   --theme-success-100: var(--color-success-900);
   --theme-success-150: var(--color-success-850);
   --theme-success-200: var(--color-success-800);
